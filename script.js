@@ -20,7 +20,7 @@ const inventory = {
     "🧂 रसोई सामान ": [
         { n: "Sugar (Cheeni)", img: "images/sugar-g963832288_1280.avif", sizes: {"1kg": 44} },
         { n: "Salt (Namak)", img: "images/tata.jpg", sizes: {"1kg": 28} },
-        { n: "Mustard Oil (Sarson)", img: "images/tata.jpg", sizes: {"1L": 155} },
+        { n: "Refined Oil", img: "images/40161771_6-fortune-sunflower-oil.webp", sizes: {"1L": 145} },
         { n: "Refined Oil", img: "images/40161771_6-fortune-sunflower-oil.webp", sizes: {"1L": 145} },
         { n: "Tea (Chai patti)", img: "images/71Xhrz02fVL.jpg", sizes: {"250g": 110} },
         { n: "Coffee", img: "images/71Xhrz02fVL.jpg", sizes: {"50g": 160} },
