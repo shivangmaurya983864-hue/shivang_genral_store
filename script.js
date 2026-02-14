@@ -54,7 +54,7 @@ const inventory = {
         { n: "Jaljeera", img: "images/714LRqI8IWL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 5} },
         { n: "Pani Puri Masala", img: "images/everest-pani-puri-masala-50-g-quick-pantry-1.jpg", sizes: {"Pack": 20} },
         { n: "Pasta Masala", img: "images/40188358_6-smith-jones-pasta-masala.webp", sizes: {"Pack": 5} },
-        { n: "Black Salt (Kala Namak)", img: "images/Black_Salt_(Crystals).jpg", sizes: {"Pack": 10} }
+        { n: "Black Salt (Kala Namak)", img: "images/Black_Salt_(crystals).jpg", sizes: {"Pack": 10} }
     ],
 
     "🍪 बिस्किट & ब्रेड(Biscuit & Bread)": [
@@ -315,3 +315,4 @@ function scrollToId(id, btn) {
 }
 
 document.addEventListener('DOMContentLoaded', renderStore);
+
