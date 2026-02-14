@@ -48,7 +48,7 @@ const inventory = {
         { n: "Kasuri Methi", img: "images/10d342fb-54e8-4f86-883e-a7c39ab3dd17_1U6XSKAR2I_MN_18122025.avif", sizes: {"Pack": 20} },
         { n: "Chole Masala", img: "images/chohole.jpg", sizes: {"Pack": 10} },
         { n: "Pav Bhaji Masala", img: "images/Fresh_Lock_Pavbhaji_Masala_100g_1200x1200.webp", sizes: {"Pack": 10} },
-        { n: "Sambhar Masala", img: "images/images/Everest-Masala-Sambhar-100g-Pack-of-2_3efcebe1-f2a8-483b-9af8-bab7bd5ea536.2c84beac4a29d73db5c580ad79598694.avif.jpg", sizes: {"Pack": 10} },
+        { n: "Sambhar Masala", img: "images/images/sambhar.jpg", sizes: {"Pack": 10} },
         { n: "Maggi Masala", img: "images/81YoCg2GP0L.jpg", sizes: {"Pack": 5} },
         { n: "Biryani Masala", img: "images/71Hmg0ocPAL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 15} },
         { n: "Jaljeera", img: "images/714LRqI8IWL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 5} },
@@ -314,6 +314,7 @@ function scrollToId(id, btn) {
 }
 
 document.addEventListener('DOMContentLoaded', renderStore);
+
 
 
 
