@@ -46,9 +46,9 @@ const inventory = {
         { n: "Dalchini", img: "images/pngtree-cinnamon-sticks-in-a-glass-bowl-png-image_13600491.png", sizes: {"20g": 25} },
         { n: "Kali Mirch", img: "images/kali.jpg", sizes: {"25g": 45} },
         { n: "Kasuri Methi", img: "images/10d342fb-54e8-4f86-883e-a7c39ab3dd17_1U6XSKAR2I_MN_18122025.avif", sizes: {"Pack": 20} },
-        { n: "Chole Masala", img: "Chole Masala.jpg", sizes: {"Pack": 10} },
+        { n: "Chole Masala", img: "images/chohole.jpg", sizes: {"Pack": 10} },
         { n: "Pav Bhaji Masala", img: "images/Fresh_Lock_Pavbhaji_Masala_100g_1200x1200.webp", sizes: {"Pack": 10} },
-        { n: "Sambhar Masala", img: "images/Sambhar Masala", sizes: {"Pack": 10} },
+        { n: "Sambhar Masala", img: "images/sambhar.jpg", sizes: {"Pack": 10} },
         { n: "Maggi Masala", img: "images/81YoCg2GP0L.jpg", sizes: {"Pack": 5} },
         { n: "Biryani Masala", img: "images/71Hmg0ocPAL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 15} },
         { n: "Jaljeera", img: "images/714LRqI8IWL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 5} },
@@ -58,11 +58,11 @@ const inventory = {
     ],
 
     "🍪 बिस्किट & ब्रेड(Biscuit & Bread)": [
-        { n: "Parle-G", img: "images/81CUAQE4YpL.jpg", sizes: {"₹5": 5, "₹10": 10} },
+        { n: "Parle-G", img: "images/ParleG.jpg", sizes: {"₹5": 5, "₹10": 10} },
         { n: "Marie Gold", img: "images/220244_9-britannia-marie-gold-biscuits.webp", sizes: {"₹10": 10} },
         { n: "Good Day", img: "images/270729_21-britannia-good-day-cashew-cookies.webp", sizes: {"₹10": 10, "₹30": 30} },
         { n: "50-50 Biscuit", img: "images/40023487_11-britannia-50-50-sweet-salty-biscuits.webp", sizes: {"₹10": 10} },
-        { n: "Monaco", img: "images/71Nh8WjMWNL._AC_UF894,1000_QL80_.jpg", sizes: {"₹10": 10} },
+        { n: "Monaco", img: "images/Monaco.jpg", sizes: {"₹10": 10} },
         { n: "Bourbon", img: "images/81ooCSbQd7L._AC_UF894,1000_QL80_.jpg", sizes: {"₹20": 20} },
         { n: "Oreo", img: "images/61Xj1A6WCTL.jpg", sizes: {"₹10": 10, "₹30": 30} },
         { n: "Cream Biscuit", img: "images/40135741_3-cremica-cream-biscuit-vanilla-cream.webp", sizes: {"₹10": 10} },
@@ -86,14 +86,13 @@ const inventory = {
     ],
 
     "🥨 नमकीन & स्नैक्स": [
-        { n: "Aloo Bhujia", img: "images/71j1PeR4pal.jpg", sizes: {"₹5": 5, "₹20": 20} },
+        { n: "Aloo Bhujia", img: "images/aloo bhujia.jpg", sizes: {"₹5": 5, "₹20": 20} },
         { n: "Haldiram Mix", img: "images/61U5C4WM+tL.jpg", sizes: {"₹10": 10, "₹40": 40} },
         { n: "Moong Dal Namkeen", img: "images/moong_dal_peanuts.jpg", sizes: {"₹5": 5, "₹10": 10} },
         { n: "Potato Chips", img: "images/61e+UwnsWwL.jpg", sizes: {"₹10": 10} },
         { n: "Kurkure", img: "images/817tDCgQIrL._AC_UF350,350_QL80_.jpg", sizes: {"₹5": 5, "₹10": 10, "₹20": 20} },
-        { n: "Lays Chips", img: "images/71RzedJqcUL._AC_UF894,1000_QL80_.jpg", sizes: {"₹10": 10, "₹20": 20} },
+        { n: "Lays Chips", img: "images/lays.jpg", sizes: {"₹10": 10, "₹20": 20} },
         { n: "Bingo Chips", img: "images/810hknZw3eL._AC_UF894,1000_QL80_.jpg", sizes: {"₹10": 10} },
-        { n: "Bhujia Sev", img: "images/9166iHTX1WL.jpg", sizes: {"₹10": 10, "₹40": 40} }
     ],
 
     "🥤 Cold Drinks": [
@@ -119,9 +118,9 @@ const inventory = {
         { n: "Plastic Spoon", img: "images/Plastic Spoon.jpg", sizes: {"Set": 20} },
         { n: "Tissue Paper", img: "images/Tissue Paper.jpg", sizes: {"Pack": 40} },
         { n: "Matchbox (Machis)", img: "images/indian-matchbox-b23548-1024.jpg", sizes: {"₹1": 1, "Bundle": 10} },
-        { n: "Candle (Mombatti)", img: "images/41olluRxT8L._AC_UF894,1000_QL80_.jpg", sizes: {"Small": 5, "Big": 20} },
-        { n: "Mosquito Coil", img: "images/816Fz9zFk7L._AC_UF1000,1000_QL80_.jpg", sizes: {"Pack": 35} },
-        { n: "Mosquito Liquid", img: "images/61ki4G4AKKL.jpg", sizes: {"Machine": 85} },
+        { n: "Candle (Mombatti)", img: "images/Candle.jpg", sizes: {"Small": 5, "Big": 20} },
+        { n: "Mosquito Coil", img: "images/Mosquito.jpg", sizes: {"Pack": 35} },
+        { n: "Mosquito Liquid", img: "images/Mosquito (2).jpg", sizes: {"Machine": 85} },
         { n: "Agarbatti", img: "images/81V7NZ+HfXL.jpg", sizes: {"Small": 10, "Big": 50} },
         { n: "Phenyl (Floor)", img: "images/1.avif", sizes: {"1L": 60} },
         { n: "Harpic", img: "images/Harpic.jpg", sizes: {"500ml": 95} },
@@ -141,7 +140,7 @@ const inventory = {
         { n: "Cinthol Soap", img: "images/61PcViBNVGL.jpg", sizes: {"₹40": 40} },
         { n: "Dove Soap", img: "images/WTCPH-10042993-back-zoom.avif", sizes: {"Medium": 60} },
         { n: "Medimix Soap", img: "images/81IQRxsP5ML.jpg", sizes: {"₹35": 35} },
-        { n: "Clinic Plus Shampoo", img: "images/61RL-IJJ7nL.jpg", sizes: {"Sachet": 1, "Bottle": 75} },
+        { n: "Clinic Plus Shampoo", img: "images/Clinic .jpg", sizes: {"Sachet": 1, "Bottle": 75} },
         { n: "Sunsilk Shampoo", img: "images/510E7IE-AIS._AC_UL495_SR435,495_.jpg", sizes: {"Sachet": 2, "Bottle": 140} },
         { n: "Head & Shoulders", img: "images/41iNTB5aaEL.jpg", sizes: {"Bottle": 180} },
         { n: "Coconut Oil", img: "images/Coconut Oil.jpg", sizes: {"100ml": 45, "500ml": 180} },
@@ -154,11 +153,11 @@ const inventory = {
         { n: "Body Lotion", img: "images/body.gpg", sizes: {"100ml": 120} },
         { n: "Face Wash", img: "images/71K50SlPm5L._AC_UF1000,1000_QL80_.jpg", sizes: {"Small": 75} },
         { n: "Cold Cream", img: "images/51PSwcp4QPL.jpg", sizes: {"Small": 15, "Medium": 70} },
-        { n: "Fairness Cream", img: "images/51Bz8ikkDOL._AC_UF350,350_QL80_.jpg", sizes: {"Pack": 60} },
+        { n: "Fairness Cream", img: "images/Fairness.jpg", sizes: {"Pack": 60} },
         { n: "Lip Balm", img: "images/51Ljfli9oeL.jpg", sizes: {"Piece": 40} },
         { n: "Comb (Kanghi)", img: "images/71Otjnr-FqL._AC_UF1000,1000_QL80_.jpg", sizes: {"Standard": 15} },
         { n: "Safety Pins", img: "images/71ZGgCzSTnL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 10} },
-        { n: "Bandage (Patti)", img: "images/71f6mbhB3uL._AC_UF1000,1000_QL80_.jpg", sizes: {"Piece": 5} },
+        { n: "Bandage (Patti)", img: "images/Bandage.jpg", sizes: {"Piece": 5} },
         { n: "Antiseptic Liquid", img: "images/253535_8-dettol-antiseptic-disinfectant-liquid.webp", sizes: {"Small": 40} },
         { n: "Sanitary Pads", img: "images/264105_22-stayfree-secure-cottony-soft-sanitary-pads-with-wings.webp", sizes: {"Pack": 35, "Large": 90} },
         { n: "summer powder", img: "images/summer.jpg", sizes: {"Small": 80} },
@@ -172,15 +171,15 @@ const inventory = {
 
     "🧺 cleaning": [
         { n: "Surf Excel Powder", img: "images/61s5orKgmwL._AC_UF1000,1000_QL80_.jpg", sizes: {"₹10": 10, "1kg": 140} },
-        { n: "Tide Powder", img: "images/tide.jpg", sizes: {"500g": 65} },
-        { n: "Ariel Powder", img: "images/71f71ITuTkL.jpg", sizes: {"500g": 90} },
+        { n: "Tide Powder", img: "images/Tide.jpg", sizes: {"500g": 65} },
+        { n: "Ariel Powder", img: "images/Ariel.jpg", sizes: {"500g": 90} },
         { n: "Liquid Detergent", img: "images/518YYVPFCnL.jpg", sizes: {"Bottle": 160} },
         { n: "Floor Cleaner", img: "images/61nJ8gZBSXL._AC_UF1000,1000_QL80_.jpg", sizes: {"1L": 80} },
         { n: "Bathroom Cleaner", img: "images/71D8dX4oiNL._AC_UF1000,1000_QL80_.jpg", sizes: {"Bottle": 85} },
         { n: "Jhaadu (Broom)", img: "images/-original-imahay3ykf8an2bs.webp", sizes: {"Phool": 80, "Seekh": 50} },
         { n: "Pocha (Mop)", img: "images/71GeEDlmPqL.jpg", sizes: {"Standard": 60} },
-        { n: "Mop Stick", img: "images/1-spin-mop-stick-rod-pocha-light-blue-kbsm02-kaykus-na-original-im.jpg", sizes: {"Piece": 120} },
-        { n: "Mug", img: "images/Homely-Bathing-Mug-Certified-Bath-Water-Mug-Ca.webp", sizes: {"Piece": 30} },
+        { n: "Mop Stick", img: "images/Mop.webp", sizes: {"Piece": 120} },
+        { n: "Mug", img: "images/Mug.jpg", sizes: {"Piece": 30} },
         { n: "Cloth Clips", img: "images/71H-yj74z-L._AC_UF894,1000_QL80_.jpg", sizes: {"Set": 40} },
         { n: "Lunch Box", img: "images/teepen.webp", sizes: {"Standard": 150} },
         { n: "Water Bottle", img: "images/water.jpg", sizes: {"Standard": 40} },
@@ -315,6 +314,7 @@ function scrollToId(id, btn) {
 }
 
 document.addEventListener('DOMContentLoaded', renderStore);
+
 
 
 
