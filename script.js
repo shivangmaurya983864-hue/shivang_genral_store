@@ -48,7 +48,7 @@ const inventory = {
         { n: "Kasuri Methi", img: "images/10d342fb-54e8-4f86-883e-a7c39ab3dd17_1U6XSKAR2I_MN_18122025.avif", sizes: {"Pack": 20} },
         { n: "Chole Masala", img: "images/chohole.jpg", sizes: {"Pack": 10} },
         { n: "Pav Bhaji Masala", img: "images/Fresh_Lock_Pavbhaji_Masala_100g_1200x1200.webp", sizes: {"Pack": 10} },
-        { n: "Sambhar Masala", img: "images/Sambhar.jpg", sizes: {"Pack": 10} },
+        { n: "Sambhar Masala", img: "images/images/Everest-Masala-Sambhar-100g-Pack-of-2_3efcebe1-f2a8-483b-9af8-bab7bd5ea536.2c84beac4a29d73db5c580ad79598694.avif.jpg", sizes: {"Pack": 10} },
         { n: "Maggi Masala", img: "images/81YoCg2GP0L.jpg", sizes: {"Pack": 5} },
         { n: "Biryani Masala", img: "images/71Hmg0ocPAL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 15} },
         { n: "Jaljeera", img: "images/714LRqI8IWL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 5} },
@@ -171,7 +171,7 @@ const inventory = {
 
     "🧺 cleaning": [
         { n: "Surf Excel Powder", img: "images/61s5orKgmwL._AC_UF1000,1000_QL80_.jpg", sizes: {"₹10": 10, "1kg": 140} },
-        { n: "Tide Powder Powder", img: "images/tide.jpg", sizes: {"₹10": 10, "1kg": 140} },
+        { n: "Tide Powder", img: "images/Tide.jpg", sizes: {"₹10": 10, "1kg": 140} },
         { n: "Ariel Powder", img: "images/Ariel.jpg", sizes: {"₹10": 10, "1kg": 140} },
         { n: "Liquid Detergent", img: "images/518YYVPFCnL.jpg", sizes: {"Bottle": 160} },
         { n: "Floor Cleaner", img: "images/61nJ8gZBSXL._AC_UF1000,1000_QL80_.jpg", sizes: {"1L": 80} },
@@ -314,6 +314,7 @@ function scrollToId(id, btn) {
 }
 
 document.addEventListener('DOMContentLoaded', renderStore);
+
 
 
 
