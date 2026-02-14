@@ -21,7 +21,7 @@ const inventory = {
         { n: "Sugar (Cheeni)", img: "images/sugar-g963832288_1280.avif", sizes: {"1kg": 44} },
         { n: "Salt (Namak)", img: "images/tata.jpg", sizes: {"1kg": 28} },
         { n: "Refined Oil", img: "images/40161771_6-fortune-sunflower-oil.webp", sizes: {"1L": 145} },
-        { n: "Refined Oil", img: "images/40161771_6-fortune-sunflower-oil.webp", sizes: {"1L": 145} },
+        { n: "mustard  Oil", img: "images/mustard.jpg", sizes: {"1L": 145} },
         { n: "Tea (Chai patti)", img: "images/71Xhrz02fVL.jpg", sizes: {"250g": 110} },
         { n: "Coffee", img: "images/71Xhrz02fVL.jpg", sizes: {"50g": 160} },
         { n: "Milk Powder", img: "images/shopping.webp", sizes: {"Pack": 10} },
@@ -315,5 +315,6 @@ function scrollToId(id, btn) {
 }
 
 document.addEventListener('DOMContentLoaded', renderStore);
+
 
 
