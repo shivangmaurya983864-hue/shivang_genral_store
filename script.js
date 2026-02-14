@@ -171,8 +171,8 @@ const inventory = {
 
     "🧺 cleaning": [
         { n: "Surf Excel Powder", img: "images/61s5orKgmwL._AC_UF1000,1000_QL80_.jpg", sizes: {"₹10": 10, "1kg": 140} },
-        { n: "Tide Powder", img: "images/Tide.jpg", sizes: {"500g": 65} },
-        { n: "Ariel Powder", img: "images/Ariel.jpg", sizes: {"500g": 90} },
+        { n: "Surf Excel Powder", img: "images/tide.jpg", sizes: {"₹10": 10, "1kg": 140} },
+        { n: "Surf Excel Powder", img: "images/Tide.jpg", sizes: {"₹10": 10, "1kg": 140} },
         { n: "Liquid Detergent", img: "images/518YYVPFCnL.jpg", sizes: {"Bottle": 160} },
         { n: "Floor Cleaner", img: "images/61nJ8gZBSXL._AC_UF1000,1000_QL80_.jpg", sizes: {"1L": 80} },
         { n: "Bathroom Cleaner", img: "images/71D8dX4oiNL._AC_UF1000,1000_QL80_.jpg", sizes: {"Bottle": 85} },
@@ -314,6 +314,7 @@ function scrollToId(id, btn) {
 }
 
 document.addEventListener('DOMContentLoaded', renderStore);
+
 
 
 
