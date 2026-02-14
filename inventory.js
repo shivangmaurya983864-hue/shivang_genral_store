@@ -45,6 +45,7 @@ window.inventory = {
         { n: "Kasuri Methi", img: "images/10d342fb-54e8-4f86-883e-a7c39ab3dd17_1U6XSKAR2I_MN_18122025.avif", sizes: {"Pack": 20} },
         { n: "Chole Masala", img: "images/chohole.jpg", sizes: {"Pack": 10} },
         { n: "Pav Bhaji Masala", img: "images/Fresh_Lock_Pavbhaji_Masala_100g_1200x1200.webp", sizes: {"Pack": 10} },
+        { n: "Sambhar Masala", img: "images/images/sambhar.jpg", sizes: {"Pack": 10} },
         { n: "Maggi Masala", img: "images/81YoCg2GP0L.jpg", sizes: {"Pack": 5} },
         { n: "Biryani Masala", img: "images/71Hmg0ocPAL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 15} },
         { n: "Jaljeera", img: "images/714LRqI8IWL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 5} },
@@ -183,5 +184,4 @@ window.inventory = {
         { n: "Plastic Basket", img: "images/614eOJdPE2L._AC_UF1000,1000_QL80_.jpg", sizes: {"Standard": 70} },
         { n: "Rat Killer", img: "images/51mosUAucqL._AC_UF1000,1000_QL80_.jpg", sizes: {"Pack": 20} }
     ]
-
 };
