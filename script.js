@@ -23,7 +23,7 @@ const inventory = {
         { n: "Refined Oil", img: "images/40161771_6-fortune-sunflower-oil.webp", sizes: {"1L": 145} },
         { n: "mustard  Oil", img: "images/mustard.jpg", sizes: {"1L": 145} },
         { n: "Tea (Chai patti)", img: "images/tata_tea_agni.jpg", sizes: {"250g": 110} },
-        { n: "Coffee", img: "images/71Xhrz02fVL.jpg", sizes: {"50g": 160} },
+        { n: "Coffee", img: "images/coffee.jpg", sizes: {"50g": 160} },
         { n: "Milk Powder", img: "images/shopping.webp", sizes: {"Pack": 10} },
         { n: "Tomato Ketchup", img: "images/1978250.webp", sizes: {"Bottle": 120} },
         { n: "Soya Sauce", img: "images/40259756_1-prime-prime-soya-sauce-improves-digestion-adds-flavour.webp", sizes: {"Bottle": 55} },
@@ -38,7 +38,7 @@ const inventory = {
         { n: "Mirchi Powder", img: "images/Mircha_Powder_500g_Front_1200x1200.webp", sizes: {"100g": 48} },
         { n: "Dhaniya Powder", img: "images/dhaniye_sabut.jpg", sizes: {"100g": 38} },
         { n: "Garam Masala", img: "images/s-l1200 (2).jpg", sizes: {"50g": 55} },
-        { n: "Chaat Masala", img: "images/chat_masala_e00e2537-8cba-4175-8e7f-e087f90c65fc_1200x1200.webp", sizes: {"50g": 45} },
+        { n: "Chaat Masala", img: "images/Chole Masala.jpg", sizes: {"50g": 45} },
         { n: "Meat Masala", img: "images/Meat_Millenium_200g_Pouch_1024x1024.webp", sizes: {"50g": 50} },
         { n: "Jeera", img: "images/jira.jpg", sizes: {"100g": 65} },
         { n: "Tej Patta", img: "images/tej.jpg", sizes: {"Pack": 15} },
@@ -46,7 +46,7 @@ const inventory = {
         { n: "Dalchini", img: "images/pngtree-cinnamon-sticks-in-a-glass-bowl-png-image_13600491.png", sizes: {"20g": 25} },
         { n: "Kali Mirch", img: "images/kali.jpg", sizes: {"25g": 45} },
         { n: "Kasuri Methi", img: "images/10d342fb-54e8-4f86-883e-a7c39ab3dd17_1U6XSKAR2I_MN_18122025.avif", sizes: {"Pack": 20} },
-        { n: "Chole Masala", img: "images/81Mqjr-h+mL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 10} },
+        { n: "Chole Masala", img: "Chole Masala.jpg", sizes: {"Pack": 10} },
         { n: "Pav Bhaji Masala", img: "images/Fresh_Lock_Pavbhaji_Masala_100g_1200x1200.webp", sizes: {"Pack": 10} },
         { n: "Sambhar Masala", img: "images/Everest-Masala-Sambhar-100g-Pack-of-2_3efcebe1-f2a8-483b-9af8-ba.webp", sizes: {"Pack": 10} },
         { n: "Maggi Masala", img: "images/81YoCg2GP0L.jpg", sizes: {"Pack": 5} },
@@ -315,6 +315,7 @@ function scrollToId(id, btn) {
 }
 
 document.addEventListener('DOMContentLoaded', renderStore);
+
 
 
 
