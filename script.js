@@ -23,7 +23,7 @@ const inventory = {
         { n: "Refined Oil", img: "images/40161771_6-fortune-sunflower-oil.webp", sizes: {"1L": 145} },
         { n: "mustard  Oil", img: "images/mustard.jpg", sizes: {"1L": 145} },
         { n: "Tea (Chai patti)", img: "images/tata_tea_agni.jpg", sizes: {"250g": 110} },
-        { n: "Coffee", img: "images/coffee.jpg", sizes: {"50g": 160} },
+        { n: "Coffee", img: "images/Coffee.jpg", sizes: {"50g": 160} },
         { n: "Milk Powder", img: "images/shopping.webp", sizes: {"Pack": 10} },
         { n: "Tomato Ketchup", img: "images/1978250.webp", sizes: {"Bottle": 120} },
         { n: "Soya Sauce", img: "images/40259756_1-prime-prime-soya-sauce-improves-digestion-adds-flavour.webp", sizes: {"Bottle": 55} },
@@ -48,7 +48,7 @@ const inventory = {
         { n: "Kasuri Methi", img: "images/10d342fb-54e8-4f86-883e-a7c39ab3dd17_1U6XSKAR2I_MN_18122025.avif", sizes: {"Pack": 20} },
         { n: "Chole Masala", img: "images/chohole.jpg", sizes: {"Pack": 10} },
         { n: "Pav Bhaji Masala", img: "images/Fresh_Lock_Pavbhaji_Masala_100g_1200x1200.webp", sizes: {"Pack": 10} },
-        { n: "Sambhar Masala", img: "images/sambhar.jpg", sizes: {"Pack": 10} },
+        { n: "Sambhar Masala", img: "images/Sambhar.jpg", sizes: {"Pack": 10} },
         { n: "Maggi Masala", img: "images/81YoCg2GP0L.jpg", sizes: {"Pack": 5} },
         { n: "Biryani Masala", img: "images/71Hmg0ocPAL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 15} },
         { n: "Jaljeera", img: "images/714LRqI8IWL._AC_UF894,1000_QL80_.jpg", sizes: {"Pack": 5} },
@@ -141,7 +141,7 @@ const inventory = {
         { n: "Dove Soap", img: "images/WTCPH-10042993-back-zoom.avif", sizes: {"Medium": 60} },
         { n: "Medimix Soap", img: "images/81IQRxsP5ML.jpg", sizes: {"₹35": 35} },
         { n: "Clinic Plus Shampoo", img: "images/Clinic .jpg", sizes: {"Sachet": 1, "Bottle": 75} },
-        { n: "Sunsilk Shampoo", img: "images/510E7IE-AIS._AC_UL495_SR435,495_.jpg", sizes: {"Sachet": 2, "Bottle": 140} },
+        { n: "Sunsilk Shampoo", img: "images/Sunsilk.jpg", sizes: {"Sachet": 2, "Bottle": 140} },
         { n: "Head & Shoulders", img: "images/41iNTB5aaEL.jpg", sizes: {"Bottle": 180} },
         { n: "Coconut Oil", img: "images/Coconut Oil.jpg", sizes: {"100ml": 45, "500ml": 180} },
         { n: "Amla Oil", img: "images/710bR5Z1-YL.jpg", sizes: {"100ml": 55} },
@@ -314,6 +314,7 @@ function scrollToId(id, btn) {
 }
 
 document.addEventListener('DOMContentLoaded', renderStore);
+
 
 
 
