@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>Shivang General Store | Premium Grocery</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-[#f8fafc]">
+
+    <header class="premium-header sticky top-0 z-50 px-4 py-4">
+        <div class="max-w-6xl mx-auto flex justify-between items-center mb-4">
+            <div>
+                <h1 class="text-2xl font-[800] text-emerald-600 tracking-tighter leading-none">SHIVANG STORE</h1>
+                <p class="text-[10px] text-slate-500 font-bold uppercase mt-1 tracking-widest">Village's Trusted Shop</p>
+            </div>
+            <div class="bg-emerald-100 text-emerald-700 px-3 py-1 rounded-full text-[10px] font-black flex items-center gap-1">
+                <span class="w-1.5 h-1.5 bg-emerald-500 rounded-full animate-pulse"></span> LIVE
+            </div>
+        </div>
+
+        <div class="max-w-6xl mx-auto relative mb-4">
+            <i class="fa-solid fa-magnifying-glass absolute left-4 top-1/2 -translate-y-1/2 text-slate-400"></i>
+            <input type="text" id="searchInput" onkeyup="searchItems()" placeholder="Search items (e.g. Masala, Soap)..." 
+                class="w-full bg-slate-100/50 border-none rounded-2xl py-3 pl-12 pr-4 text-sm focus:ring-2 focus:ring-emerald-500 transition-all outline-none">
+        </div>
+
+        <div class="max-w-6xl mx-auto overflow-x-auto no-scrollbar flex gap-2" id="cat-nav"></div>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-4 md:p-6" id="store-container"></main>
+
+    <div id="cart-panel" class="fixed bottom-0 left-0 right-0 z-50 transition-all duration-500 translate-y-full pb-6 px-4">
+        <div class="max-w-xl mx-auto luxury-cart flex justify-between items-center bg-slate-900 text-white p-5 rounded-[2rem] shadow-2xl">
+            <div>
+                <p id="cart-count" class="text-[10px] font-bold opacity-60 uppercase tracking-widest">0 Items</p>
+                <p class="text-2xl font-black">₹<span id="cart-total">0</span></p>
+            </div>
+            <button onclick="checkout()" class="bg-emerald-500 hover:bg-emerald-400 text-white px-8 py-4 rounded-2xl font-black text-sm transition-all active:scale-95 flex items-center gap-2">
+                ORDER ON WHATSAPP <i class="fa-brands fa-whatsapp text-lg"></i>
+            </button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
