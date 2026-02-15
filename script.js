@@ -233,21 +233,20 @@ function toggleCart() {
 
     miniCart?.classList.toggle("translate-x-full");
 
-    // Agar cart open hai to floating bar disable
+    // Agar cart open hai → floating bar HIDE
     if (!miniCart.classList.contains("translate-x-full")) {
         if (floatBar) {
-            floatBar.style.pointerEvents = "none";
-            floatBar.style.opacity = "0.6";
+            floatBar.style.display = "none";
         }
     } 
-    // Agar cart close hai to floating bar enable
+    // Agar cart close hai → floating bar SHOW (agar items hain)
     else {
-        if (floatBar) {
-            floatBar.style.pointerEvents = "auto";
-            floatBar.style.opacity = "1";
-        }
+        const count = Object.values(cart).reduce((sum, item) => sum + item.qty, 0);
+        const total = Object.values(cart).reduce((sum, item) => sum + (item.price * item.qty), 0);
+        renderFloatingBar(count, total);
     }
 }
+
 
 function clearCart() { cart = {}; saveCart(); renderStore(); }
 
