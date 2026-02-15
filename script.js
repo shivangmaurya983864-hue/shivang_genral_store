@@ -227,7 +227,28 @@ function checkout() {
     window.open(`https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(msg)}`);
 }
 
-function toggleCart() { document.getElementById("mini-cart")?.classList.toggle("translate-x-full"); }
+function toggleCart() {
+    const miniCart = document.getElementById("mini-cart");
+    const floatBar = document.getElementById("float-bar");
+
+    miniCart?.classList.toggle("translate-x-full");
+
+    // Agar cart open hai to floating bar disable
+    if (!miniCart.classList.contains("translate-x-full")) {
+        if (floatBar) {
+            floatBar.style.pointerEvents = "none";
+            floatBar.style.opacity = "0.6";
+        }
+    } 
+    // Agar cart close hai to floating bar enable
+    else {
+        if (floatBar) {
+            floatBar.style.pointerEvents = "auto";
+            floatBar.style.opacity = "1";
+        }
+    }
+}
+
 function clearCart() { cart = {}; saveCart(); renderStore(); }
 
 function renderCategoryNav() {
